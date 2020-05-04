@@ -13,3 +13,6 @@ elk:
     - "9200:9200"
     - "5044:5044"
     - "5403:5403"
+  volumes:
+    - /mnt/elasticvol:/var/lib/elasticsearch
+    - /mnt/elasticbackup:/mnt/elasticbackup
