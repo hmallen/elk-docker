@@ -1,0 +1,9 @@
+output {
+    stdout {}
+    elasticsearch {
+        index => "geochat-%{+MMddYYYY}"
+        hosts => ["localhost:9200"]
+        # user => ""#
+        # password => ""
+    }
+}
