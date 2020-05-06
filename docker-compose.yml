@@ -12,7 +12,7 @@ elk:
     - "5601:5601"
     - "9200:9200"
     - "5044:5044"
-    - "5403:5403"
+    - "5043:5043"
   volumes:
     - /mnt/elasticvol:/var/lib/elasticsearch
     - /mnt/elasticbackup:/mnt/elasticbackup
