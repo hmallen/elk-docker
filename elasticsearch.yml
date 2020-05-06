@@ -38,7 +38,8 @@ node.name: elk
 #
 # Path to snapshots for backups:
 #
-path.repo: /var/backups
+#path.repo: /var/backups
+path.repo: /mnt/elasticbackup
 #
 # ----------------------------------- Memory -----------------------------------
 #
